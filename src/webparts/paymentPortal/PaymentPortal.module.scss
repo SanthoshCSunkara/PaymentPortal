@@ -1,0 +1,78 @@
+.container {
+  max-width: 1120px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0 20px 0;
+}
+
+/* layout helpers for the request form */
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.colSpan2 {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+  .formGrid { grid-template-columns: 1fr; }
+  .colSpan2 { grid-column: auto; }
+}
+
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pillPending { background:#FEF3C7; color:#92400E; }
+.pillApproved { background:#D1FAE5; color:#065F46; }
+.pillRejected { background:#FEE2E2; color:#991B1B; }
+.pillCompleted { background:#DBEAFE; color:#1E40AF; }
+.pillDefault { background:#F3F4F6; color:#374151; }
+
+.listRow {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:12px 10px; border:1px solid #e5e7eb; border-radius:8px; margin-bottom:8px;
+}
+
+.badge {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background:#f3f4f6; padding:2px 8px; border-radius:6px; margin-right:8px;
+}
+
+@media (max-width: 768px) {
+  .grid2 { grid-template-columns: 1fr; }
+  .grid3 { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.19.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "payment-portal",
+    "libraryId": "1ff27a0c-d857-48fb-9245-3eeaab4510ca",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PaymentPortal",
+    "solutionShortDescription": "PaymentPortal description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

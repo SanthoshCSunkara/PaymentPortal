@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "payment-portal-client-side-solution",
+    "id": "1ff27a0c-d857-48fb-9245-3eeaab4510ca",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PaymentPortal description"
+      },
+      "longDescription": {
+        "default": "PaymentPortal description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "payment-portal Feature",
+        "description": "The feature that activates elements of the payment-portal solution.",
+        "id": "64d8783b-eca5-4270-9e71-56bf69879087",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/payment-portal.sppkg"
+  }
+}
